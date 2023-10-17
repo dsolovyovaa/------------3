@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rubber table Layout</title>
+    <link rel="stylesheet" href="rubber.css">
+</head>
+
+<body>
+
+    <table id="table_one">
+        <tr>
+            <th colspan="3" height="20%" width="100%">
+                <form>
+                    <input type="text">
+                </form>
+                1
+            </th>
+        </tr>
+        <tr>
+            <td id="blue" height="70%" width="40%">2
+            </td>
+            <td>
+                <table id="table_two">
+                    <tr>
+                        <td id="red" colspan="2" height="10%" width="60%">-</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table id="table_tree">
+                                <tr>
+                                    <td id="line" height="50%" width="35%">3
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td id="line" height="10%" width="35%">-
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td id="four" rowspan="2" height="60%" width="45%x">4</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td id="yellow" colspan="3" height="10%" width="100%">5
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+table {
+    margin: 0px;
+}
+
+td,
+th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    background-color: yellow;
+
+}
+
+
+input {
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 320px;
+    height: 30px;
+}
+
+#table_one {
+    width: 1300px;
+    height: 625px;
+    border-collapse: collapse;
+}
+
+#table_two {
+    border-spacing: 20px 20px;
+}
+
+#table_tree {
+    border-collapse: collapse;
+
+}
+
+#blue,
+#four {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#red,
+#line {
+    background-color: red;
+}

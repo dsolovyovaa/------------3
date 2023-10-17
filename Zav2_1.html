@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rubber Layout Example</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+
+        }
+
+        div {
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+
+        #header {
+            float: inline-start;
+            width: 1200px;
+            height: 100px;
+            background-color: rgb(236, 236, 147);
+        }
+
+        #white {
+            padding: 8px;
+            position: relative;
+            left: 30px;
+            width: 350px;
+            height: 30px;
+            background-color: rgb(255, 255, 255);
+        }
+
+        #left {
+            position: relative;
+            float: inline-start;
+            width: 350px;
+            height: 500px;
+            background-color: rgb(135, 198, 247);
+        }
+
+        #right {
+            position: relative;
+            top: 100px;
+            left: 350px;
+            width: 850px;
+            height: 500px;
+            background-color: rgb(255, 255, 255);
+        }
+
+        #content {
+            position: relative;
+            float: left;
+            top: -75px;
+            left: -300px;
+            width: 350px;
+            height: 460px;
+            background-color: rgb(255, 255, 255);
+        }
+
+        #footer {
+            position: relative;
+            float: left;
+            bottom: 535px;
+            left: 80px;
+            width: 400px;
+            height: 460px;
+            background-color: rgb(162, 230, 255);
+        }
+
+        #in {
+            position: relative;
+            top: 360px;
+            width: 350px;
+            height: 80px;
+            background-color: rgb(208, 82, 82);
+        }
+
+        #end {
+            top: 100px;
+            position: relative;
+            width: 1200px;
+            height: 70px;
+            background-color: rgb(236, 236, 147);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">1
+        <div id="white">
+        </div>
+    </div>
+    <div id="left">2</div>
+    <div id="right">
+        <div id="content">3
+            <div id="in"></div>
+        </div>
+        <div id="footer">4</div>
+    </div>
+    <div id="end">5</div>
+</body>
+
+</html>
